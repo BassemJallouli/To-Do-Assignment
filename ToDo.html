@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            ToDo App
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Script(s): -->
+        <script src="./js/ToDo.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <h1>To-Do App</h1>
+        
+        <form id="my-form" action="#" method="GET">
+            <label for="name">
+                Enter Task:
+                <input id="name" name="name" type="text">
+            </label>
+            
+            <input type="submit" value="Add-To-Do">
+        </form>
+        
+        <table id="my-table">
+            <thead>
+                <th><h1>Active To-Do</h1></th>
+            </thead>
+            <tbody id="my-table-body"></tbody>
+            
+        </table>
+    </body>
+</html>

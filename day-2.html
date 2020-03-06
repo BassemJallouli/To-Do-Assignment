@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Let's Learn JavaScript! Day 2!
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Stylesheets: -->
+        <link rel="stylesheet" href="./css/main.css">
+
+        <!-- Scripts: -->
+        <script type="text/javascript" src="./js/day-2.js" defer></script>
+    </head>
+    <body>
+        <h1>Let's Learn JavaScript! Day 2!</h1>
+        <nav>
+            <h2>Navigation</h2>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="./day-2.html">
+                        Day 2
+                    </a>
+                </li>
+                <li>
+                    <a href="./table.html">
+                        Table HTML Example
+                    </a><br><a href="./table-solution.html">
+                        (Solution)
+                    </a>
+                </li>
+                <li>
+                    <a href="./day-3.html">
+                        Day 3
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <form id="calculator" action="#" method="get">
+            <label for="operator">
+                Select an Operator:
+                <select name="operator" id="operator">
+                    <option value="add">Add</option>
+                    <option value="subtract">Subtract</option>
+                    <option value="divide">Divide</option>
+                    <option value="multiply">Multiply</option>
+                </select>
+            </label>
+            <label for="num1">
+                Enter First Number:
+                <input name="num1" id="num1" type="number">
+            </label>
+            <label for="num2">
+                Enter Second Number:
+                <input name="num2" id="num2" type="number">
+            </label>
+            <button type="submit" id="run-calc">
+                Run Calculation
+            </button>
+            <strong>Answer:</strong><em id="result"></em>
+        </form>
+        <p id="my-paragraph">
+            This is a paragraph!? Wild!
+        </p>
+    </body>
+</html>
