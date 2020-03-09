@@ -1,6 +1,6 @@
 var table = document.getElementById( 'my-table' ); /* Get the element with id="my-table" */
 var tableBody = document.getElementById( 'my-table-body' ); /* Get the element with id="my-table-body" */
-var NewtableBody = document.getElementById( 'new-table-body' ); /* Get the element with id="my-table-body" */
+var NewtableBody = document.getElementById( 'new-table-body' ); /* Get the element with id="new-table-body" */
 
 
 
